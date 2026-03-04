@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Actividad Callbacks (Validación y Cálculo)</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Funciones Callback en JavaScript</h1>
+      <p>
+        Validación con <code>prompt</code>, cálculos y asincronía con <code>setTimeout</code>.
+      </p>
+      <p class="hint">Tip: abre la consola (F12 → Console) para ver los logs.</p>
+    </header>
+
+    <section class="card">
+      <h2>1) validar_numero(callback)</h2>
+      <p>Abre un prompt, valida y ejecuta un callback con “Correcto” o “Error”.  [oai_citation:2‡Funciones Callback en JavaScript.pdf](sediment://file_00000000ce1071f58eb3b33c901ad752)</p>
+      <div class="buttons">
+        <button id="btnValidar">Probar validar_numero</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2) calcular_y_avisar_despues(numero, callback)</h2>
+      <p>Sumatoria de impares entre 1 y N. Espera 5s y ejecuta callback con el mensaje.  [oai_citation:3‡Funciones Callback en JavaScript.pdf](sediment://file_00000000ce1071f58eb3b33c901ad752)</p>
+
+      <div class="row">
+        <label>
+          Número (N):
+          <input id="numImpares" type="number" min="1" step="1" placeholder="Ej: 10" />
+        </label>
+        <button id="btnImpares">Calcular y avisar (5s)</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>3) calcular_y_avisar_dependiendo(numero, callback, callback_error)</h2>
+      <p>
+        Calcula sumatorias sucesivas 1..N. Si resultado &lt; 1000 llama callback,
+        si ≥ 1000 llama callback_error (pero muestra el resultado igual).  [oai_citation:4‡Funciones Callback en JavaScript.pdf](sediment://file_00000000ce1071f58eb3b33c901ad752)
+      </p>
+
+      <div class="row">
+        <label>
+          Número (N):
+          <input id="numSucesivas" type="number" min="1" step="1" placeholder="Ej: 50" />
+        </label>
+        <button id="btnSucesivas">Calcular sucesivas</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Salida</h2>
+      <pre id="output" class="output">Presiona un botón para comenzar…</pre>
+      <div class="buttons">
+        <button id="btnLimpiar" class="secondary">Limpiar salida</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
