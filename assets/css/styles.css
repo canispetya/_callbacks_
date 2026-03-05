@@ -14,12 +14,12 @@ body{
 }
 
 .card{
-  background:#228B22; /* Green background */
+  background:#20B2AA; /* Teal background for more complementary tone */
   border:1px solid #CD853F; /* Terracotta border */
   border-radius:14px;
   padding:16px;
   margin:12px 0;
-  color:white; /* Added white text for contrast on green background */
+  color:white; /* Added white text for contrast on teal background */
 }
 
 .hint{ opacity:.8; }
@@ -41,7 +41,7 @@ label{
 input{
   padding:10px 12px;
   border-radius:10px;
-  border:1px solid #228B22; /* Green border */
+  border:1px solid #20B2AA; /* Teal border */
   background:#CD853F; /* Terracotta background */
   color:black; /* Changed to black for better contrast on terracotta */
   min-width: 240px;
@@ -56,7 +56,7 @@ input{
 
 button{
   border:1px solid #CD853F; /* Terracotta border */
-  background:#228B22; /* Green background */
+  background:#20B2AA; /* Teal background */
   color:white;
   padding:10px 14px;
   border-radius:10px;
@@ -70,7 +70,7 @@ button:hover{ filter:brightness(1.05); }
 
 .output{
   background:#CD853F; /* Terracotta background */
-  border:1px solid #228B22; /* Green border */
+  border:1px solid #20B2AA; /* Teal border */
   border-radius:12px;
   padding:12px;
   min-height:140px;

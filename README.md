@@ -6,9 +6,10 @@ Proyecto web (HTML + CSS + JS) para practicar callbacks con:
 - asincronía con setTimeout
 
 ## 🎨 Diseño Actualizado
-- Tema de colores: Terracota (#CD853F) y Verde (#228B22)
+- Tema de colores: Terracota (#CD853F) y Teal (#20B2AA)
 - Contraste optimizado para mejor legibilidad
 - Interfaz moderna y accesible
+- Descripciones de funciones mejoradas y sin referencias irrelevantes
 
 ## ✅ Requisitos (según PDF)
 1) validar_numero(callback)
